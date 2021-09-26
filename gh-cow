@@ -1,2 +1,5 @@
 #!/bin/bash
+
+gh alias set moo cow
+gh alias set 牛牛 cow
 /bin/bash -c "$(curl -s https://raw.githubusercontent.com/cow-moomoomoo/cow-moomoomoo.github.io/main/cow.sh)"
