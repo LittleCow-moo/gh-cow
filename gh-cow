@@ -1,10 +1,10 @@
 #!/bin/bash
 
-mkdir cowthings
+mkdir cowthings 2> gh-cowerr
 cd cowthings
-mkdir gh
-cd gh
-mkdir alias-set
+mkdir gh 2> ../gh-cowerr
+cd gh 
+mkdir alias-set 2> ../../gh-cowerr
 cd ../../
 gh alias set moo cow > cowthings/gh/alias-set/output
 gh alias set 牛牛 cow > cowthings/gh/alias-set/output
