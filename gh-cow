@@ -6,6 +6,7 @@ mkdir gh 2> ../gh-cowerr
 cd gh 
 mkdir alias-set 2> ../../gh-cowerr
 cd ../../
+rm -r gh-cowerr
 gh alias set moo cow > cowthings/gh/alias-set/output
 gh alias set 牛牛 cow > cowthings/gh/alias-set/output
 rm -r cowthings/gh/alias-set/output
